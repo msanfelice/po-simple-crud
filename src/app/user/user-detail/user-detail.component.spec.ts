@@ -8,6 +8,7 @@ import { UserDetailComponent } from './user-detail.component';
 describe('UserDetailComponent', () => {
   let component: UserDetailComponent;
   let fixture: ComponentFixture<UserDetailComponent>;
+  
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
