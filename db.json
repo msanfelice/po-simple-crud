@@ -1,0 +1,18 @@
+{
+  "clientes": [
+    {
+      "id": "",
+      "fistname": "",
+      "lastName": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "firstName": "marcos ",
+      "lastName": "patricio sanfelice",
+      "email": "marcos.sanfelice@gmail.com",
+      "password": "123",
+      "id": "JE99exY"
+    }
+  ]
+}

@@ -7,7 +7,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root',
 })
 export class UserService {
-  private endpoint = `${environment.apiURL}/api/v1/users`;
+  private endpoint = `${environment.apiURL}/clientes`;
 
   private readonly headers: HttpHeaders = new HttpHeaders({
     'X-PO-SCREEN-LOCK': 'true',

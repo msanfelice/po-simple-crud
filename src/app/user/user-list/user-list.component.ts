@@ -36,12 +36,7 @@ export class UserListComponent implements OnInit {
     },
     { property: 'lastName', label: 'Sobrenome', duplicate: true },
     { property: 'email', label: 'E-mail', duplicate: true },
-    {
-      property: 'isActive',
-      label: 'Ativo',
-      type: 'boolean',
-      duplicate: true,
-    },
+
   ];
 
   apiService!: string;

@@ -45,13 +45,7 @@ export class UserEditComponent implements OnInit {
       secret: true,
       required: true,
     },
-    {
-      property: 'isActive',
-      label: 'Ativo',
-      type: 'boolean',
-      booleanTrue: 'Sim',
-      booleanFalse: 'Não',
-    },
+    
   ];
 
   apiService!: string;
